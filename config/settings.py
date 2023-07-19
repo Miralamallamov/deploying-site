@@ -22,9 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '_g7@6y++3qc4mtc-a5$bhsh7jtmzw8p#*c@!c2(!40_69r3w93'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# SECRET_KEY = os.getenv('SECRET_KEY')
 
+DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 
